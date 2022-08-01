@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheet" herf="./cajero.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <title>BancoT</title>
+</head>
+<body>
+<img src="https://fondosmil.com/fondo/25319.jpg">
+
+<div class="consultar" id="consultar">
+    <input placeholder="Consultar Saldo" class="input" id="monto" style="font-size: 18px;">
+    <button type="submit" class="consultar" id="consultar" style="width: 200px;" onclick="consultar();">Consultar Saldo</button>
+</div>
+
+<div class="deposito" id="deposito">
+    <input placeholder="Ingresa el monto a Depositar" type="number" class="input" id="monto" style="font-size: 18px;">
+    <button type="submit" class="deposito" id="deposito" style="width: 200px;" onclick="depositar();">Deposito</button>
+</div>
+
+<div class="retiro" id="retiro">
+    <input placeholder="Ingresa el monto a Retirar" type="number" class="input" id="monto" style="font-size: 18px;">
+    <button type="submit" class="retiro" id="retiro" style="width: 200px;" onclick="retiro();">Retiro</button>
+</div>
+
+
+
+    <script src="./cajero.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
